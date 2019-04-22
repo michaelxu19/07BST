@@ -53,7 +53,8 @@ int main() {
     print(bst.postOrderTraversal());
     cout << endl;
     cout << "number of nodes in tree after delete is " << bst.countNodes() << endl;
-    cout << endl;
-
+    cout<< endl;
+    
+    cout << "Is 9 in Tree: " << bst.isItemInTree("10") << "\n";
 }
 
